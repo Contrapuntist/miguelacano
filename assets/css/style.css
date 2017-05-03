@@ -9,15 +9,31 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-size: 32px;
+	color: #ffffff;
 }
 
 h2 {
+	font-size: 30px;
+}
+
+h3 {
 	font-size: 24px;
+} 
+
+h6 {
+	font-size: 12px;
+	color: #ffffff;
 }
 
 a, p, ul, ol {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	line-height: 24px;
+
+}
+
+p {
+	padding-bottom: 8px;
 }
 
 header {
@@ -27,8 +43,17 @@ header {
 	background-color: #ffffff;
 }
 
+main {
+	margin-bottom: 30px;
+	border-bottom: 3px solid #4aaaa5;
+}
+
 section {
 	margin-top: 30px;
+}
+
+aside {
+	float: right;
 }
 
 ul {
@@ -40,15 +65,18 @@ li {
 }
 
 footer {
+	
 	text-align: center;
 	background-color: #666666; 
 	line-height: 40px;
-
+	padding: 20px;
+	width: 100%
 }
 
 .wrapper {
 	width: 960px;
 	margin: 0 auto;
+	
 }
 
 
@@ -72,14 +100,37 @@ footer {
 	display: inline-block;
 }
 
-.marginrht40 {
-	margin-right: 40px;
+.margintop20 {
+	margin-top: 20px;
 }
 
-/* 
+.contentbdr {
+	border: 1px solid #dddddd;
+}
+
+.contentbkg {
+	background-color: #ffffff;
+}
+
+.contentpad {
+	padding: 25px;
+}
+
 .logo {
+	width: 300px;
 	background-color: #4aaaa5; 
 	text-align: center;
-	padding: 10px;  
+	padding: 10px;
+	color: #ffffff;
+	margin-left: 20px;  
 } 
-*/
+
+.icon {
+	width: 60px;
+	margin: 0 10px 0 0;
+} 
+
+.grybdr {
+	border-bottom: 2px solid #dddddd;
+	padding-bottom: 10px;
+}
