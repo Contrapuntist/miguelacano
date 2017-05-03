@@ -2,3 +2,28 @@
 	box-sizing: border-box;
 }
 
+body {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+} 
+
+a, p, ul, ol {
+	'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header {
+	float: left;
+	padding: 30px;	
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+	display: inline-block;
+}
