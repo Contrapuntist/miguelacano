@@ -3,8 +3,7 @@
 }
 
 body {
-	background-image: url('assets/images/wov.png'); 
-	background-repeat: repeat-x;
+	background-image: url('../images/topography.png'); 
 }
 
 h1, h2, h3, h4, h5, h6 {
