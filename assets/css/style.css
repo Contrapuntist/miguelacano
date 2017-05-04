@@ -3,7 +3,7 @@
 }
 
 body {
-	background-image: url("assets/images/topography.png"); 
+	background-image: url('assets/images/wov.png'); 
 	background-repeat: repeat-x;
 }
 
@@ -59,6 +59,11 @@ nav ul, aside li {
 
 nav li, aside li {
 	display: inline-block;
+	padding-right: 5px;
+}
+
+nav li.lastchild, aside li.lastchild {
+	padding-right: none;
 }
 
 main {
@@ -172,4 +177,30 @@ footer {
 	background-color: #4aaaa5; 
 	border: none;
 	font-size: 18px;
+}
+
+.portsect {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.imgport {
+	width: 250px;
+	position: relative;
+}
+
+.imgport img {
+	width: 250px;
+}
+
+.portlabel {
+	width: 250px;
+	color: white;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding: 25px;
+	position: absolute;
+	bottom: 20px;
 }
