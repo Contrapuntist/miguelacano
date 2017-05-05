@@ -36,6 +36,15 @@ a, p, ul, ol {
 	line-height: 24px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: ##4aaaa5;
+}
+
 p {
 	padding-bottom: 8px;
 }
